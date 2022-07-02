@@ -61,7 +61,11 @@
             </a>
           </div>
         </div>
-        <div class="open-close"></div>
+        <div class="open-close" onclick="navbar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </head>
     <main>
@@ -69,6 +73,10 @@
       <div class="container-satu"></div>
     </main>
 
-    <script></script>
+    <script>
+      function navbar() {
+        document.body.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
