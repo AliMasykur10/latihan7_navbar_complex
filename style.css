@@ -80,30 +80,19 @@ nav i {
   margin-top: 5px;
 }
 
-/* .navbar-hover,
-.navbar-hover a,
-.navbar-contains .navbar-hover a w {
+.navbar-hover,
+.navbar-hover a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
-  height: 40px;
-  right: 0;
-  position: relative;
-  background-color: var(--warna-bg-kedua);
-} */
-
-/* .nama-brand .span-hover {
-  display: block;
-  position: absolute;
-  width: 90%;
-  height: 40px;
-  right: 0;
-  border-radius: 50% 0 0 50%;
 }
 
-.nama-brand .span-hover:hover {
+.span-hover {
+  display: block;
+  position: absolute;
   background-color: var(--warna-bg-kedua);
-} */
+  width: 20px;
+  height: 20px;
+}
 
 /* main */
