@@ -15,7 +15,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
 }
 
@@ -49,13 +49,6 @@ nav span {
   display: none;
 }
 
-.navbar-contains .navbar-hover {
-  width: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .navbar-contains div:not(:first-child) {
   margin-top: 1.4rem;
 }
@@ -80,30 +73,99 @@ nav i {
   margin-top: 5px;
 }
 
-/* .navbar-hover,
-.navbar-hover a,
-.navbar-contains .navbar-hover a w {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 90%;
-  height: 40px;
-  right: 0;
+.nama-brand,
+.navbar-contains div {
   position: relative;
-  background-color: var(--warna-bg-kedua);
-} */
-
-/* .nama-brand .span-hover {
-  display: block;
-  position: absolute;
   width: 90%;
-  height: 40px;
-  right: 0;
-  border-radius: 50% 0 0 50%;
+  height: auto;
+  display: flex;
+  padding: 0.5rem 0;
+  justify-content: center;
+  border-radius: 5px;
 }
 
-.nama-brand .span-hover:hover {
+.navbar-contains {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-close {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.open-close {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: auto;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+}
+
+.class-hover {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-navbar:hover {
   background-color: var(--warna-bg-kedua);
-} */
+}
+
+/* active */
+
+.active header nav {
+  width: 250px;
+}
+
+.active nav span {
+  display: inherit;
+}
+
+.hover-navbar a {
+  display: flex;
+  align-items: center;
+}
+.active .hover-navbar {
+  display: flex;
+  justify-content: flex-start;
+  padding-inline-start: 0.5rem;
+}
+
+.active .nama-brand,
+.active .div-close .hover-navbar {
+  display: flex;
+  justify-content: flex-start;
+  padding-inline-start: 0.5rem;
+}
+
+.active .open-close span:nth-child(2) {
+  width: 0;
+}
+
+.active .open-close span:nth-child(3) {
+  transform: translateY(-7px) rotate(90deg);
+}
+.active .open-close span:nth-child(1) {
+  transform: translateY(7px);
+}
+
+.active .rotate {
+  transform: rotate(45deg);
+}
+
+a span {
+  margin-left: 0.5rem;
+}
 
 /* main */
